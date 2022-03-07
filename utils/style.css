@@ -1,0 +1,46 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    height: 63vh;
+    width: 100%;
+    
+  }
+
+#etch {
+  background-image: url("./22ETCH-jumbo.jpg");
+  height: 100%;
+  background-size: inherit;
+  background-repeat: round;
+  padding: 150px 195px 125px 190px;
+}
+
+#input {
+  display: flex;
+  flex-direction: row;
+  padding: 1px 0px 50px 0px;
+  height: 5%;
+  justify-content: center;
+}
+
+#reset {
+  margin-top: 10px;
+}
+
+#grid { 
+  
+  display: grid;     
+    grid-auto-rows: 1fr;
+    height: 85%;
+    
+    max-width: 100%;
+    
+ }
+
+
+ 
+
+ 
